@@ -1,0 +1,7 @@
+<RCC>
+   <qresource comment="">
+    <file>img/board.png</file>
+    <file>img/cross.png</file>
+    <file>img/zero.png</file>
+   </qresource>
+</RCC>
