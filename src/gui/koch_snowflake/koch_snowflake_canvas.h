@@ -2,7 +2,7 @@
  * \file    canvas.h
  * \brief
  * \details
- * \author  conquistador
+ * \author  boussole
  */
 #ifndef KOCH_SNOWFLAKE_CANVAS_H_
 #define KOCH_SNOWFLAKE_CANVAS_H_

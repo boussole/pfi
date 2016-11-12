@@ -2,7 +2,7 @@
  * \file    main_window.h
  * \brief
  * \details
- * \author  conquistador
+ * \author  boussole
  */
 #ifndef MAIN_WINDOW_H_
 #define MAIN_WINDOW_H_

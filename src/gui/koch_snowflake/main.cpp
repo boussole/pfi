@@ -2,7 +2,7 @@
  * \file    main.cpp
  * \brief
  * \details
- * \author  conquistador
+ * \author  boussole
  */
 
 #include <QApplication>

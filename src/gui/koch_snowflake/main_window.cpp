@@ -2,7 +2,7 @@
  * \file    main_window.cpp
  * \brief
  * \details
- * \author  conquistador
+ * \author  boussole
  */
 
 #include <QDebug>

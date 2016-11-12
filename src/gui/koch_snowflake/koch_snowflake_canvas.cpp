@@ -2,7 +2,7 @@
  * \file    canvas.cpp
  * \brief
  * \details
- * \author  conquistador
+ * \author  boussole
  */
 
 #include <QPainter>
