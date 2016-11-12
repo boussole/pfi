@@ -43,6 +43,7 @@ gmon.out
 ######################
 .cproject
 .project
+.settings
 
 # Qt
 ######################
