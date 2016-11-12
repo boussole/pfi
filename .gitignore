@@ -48,3 +48,8 @@ gmon.out
 # Qt
 ######################
 moc_*.cpp
+
+# Other version controls
+######################
+svn*
+.svn*
