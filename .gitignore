@@ -6,6 +6,7 @@
 *.exe
 *.o
 *.so
+*.bin
 
 # Packages #
 ############
@@ -35,6 +36,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+gmon.out
 
 # Eclipse files
 ######################
