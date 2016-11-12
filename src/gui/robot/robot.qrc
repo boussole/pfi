@@ -1,0 +1,10 @@
+<RCC>
+   <qresource comment="">
+    <file>img/space.jpg</file>
+    <file>img/android-green.png</file>
+    <file>img/android-black.png</file>
+    <file>img/android-blue.png</file>
+    <file>img/parachute.png</file>
+    <file>img/parachute2.png</file>
+   </qresource>
+</RCC>
