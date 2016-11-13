@@ -1,0 +1,11 @@
+"AAABBCCCCD" # 5
+"a" # 0
+"" # -1
+"ABB" # 1
+"AAABBC" # 0
+"AABBCC" # 0
+"ABBCCCDDEEEE" # 8
+"aAbBBBbCcc" # 3
+"ABCDEF" # 0
+"ABB" # 1
+"ABCDEEF" # 4 

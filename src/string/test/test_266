@@ -1,0 +1,11 @@
+"" ""                               # -1
+"" "test"                           # -1
+"asdfzxcv" ""                       # -1
+"test" "test1"                      # -1
+"test1" "test"                      #  0
+"test" "tes"                        #  0
+"test" "testest"                    #  -1
+"testtest" "test"                   #  0, 4
+"asdftestosteronasdf" "testosteron"     #  4
+"abcabaabcabca" "abaa" # 3
+"abcabcaabcabd" "abcabd"
