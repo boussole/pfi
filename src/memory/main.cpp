@@ -1,8 +1,8 @@
-/*
- * main.cpp
- *
- *  Created on: 29.08.2014
- *      Author: user
+/**
+ * \file    main.cpp
+ * \brief
+ * \details
+ * \author  boussole
  */
 
 #include "common/common.h"

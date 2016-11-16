@@ -1,8 +1,8 @@
-/*
- * memory.cpp
- *
- *  Created on: 29.08.2014
- *      Author: user
+/**
+ * \file    memory.cpp
+ * \brief
+ * \details
+ * \author  boussole
  */
 
 #include "memory.h"

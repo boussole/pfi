@@ -1,8 +1,8 @@
-/*
- * memory.h
- *
- *  Created on: 29.08.2014
- *      Author: user
+/**
+ * \file    memory.h
+ * \brief
+ * \details
+ * \author  boussole
  */
 
 #ifndef MEMORY_H_
