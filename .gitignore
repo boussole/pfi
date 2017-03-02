@@ -57,3 +57,4 @@ svn*
 # Debug files
 #####################
 core
+vgcore.*
