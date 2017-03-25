@@ -8,7 +8,7 @@ clean:
 
 %:
 	@echo "Building problem: '$@'..."
-	@($(CXX) -p -pg -std=c++11 $@.cpp -o $@.bin)
+	@($(CXX) -p -pg -std=c++11 -Wall -Werror $@.cpp -o $@.bin)
 	@echo "Running problem: '$@'..."
 	@(./$@.bin <$@.test)
 	@echo "Finished problem: '$@'.\n"
