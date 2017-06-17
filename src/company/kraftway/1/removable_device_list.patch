@@ -1,0 +1,129 @@
+diff --git a/AppPkg/AppPkg.dsc b/AppPkg/AppPkg.dsc
+index 58bc84e..2600318 100644
+--- a/AppPkg/AppPkg.dsc
++++ b/AppPkg/AppPkg.dsc
+@@ -111,6 +111,7 @@
+   AppPkg/Applications/Main/Main.inf          # Simple invocation. No other LibC functions.
+   AppPkg/Applications/Enquire/Enquire.inf    #
+   AppPkg/Applications/ArithChk/ArithChk.inf  #
++  AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.inf
+ 
+ #### A simple fuzzer for OrderedCollectionLib, in particular for
+ #### BaseOrderedCollectionRedBlackTreeLib.
+diff --git a/AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.c b/AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.c
+new file mode 100644
+index 0000000..ab89651
+--- /dev/null
++++ b/AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.c
+@@ -0,0 +1,73 @@
++#include <Uefi.h>
++#include <Library/UefiLib.h>
++#include <Library/DevicePathLib.h>
++#include <Library/DebugLib.h>
++#include <Library/UefiBootServicesTableLib.h>
++#include <Library/MemoryAllocationLib.h>
++#include <Library/ShellLib.h>
++#include <Library/ShellCEntryLib.h>
++
++/*
++ * Main entry point
++ */
++INTN
++EFIAPI
++ShellAppMain (
++  IN UINTN Argc,
++  IN CHAR16 **Argv
++  )
++{
++  EFI_STATUS Status;
++  EFI_HANDLE *Handles;
++  UINTN NoHandles;
++  UINTN NrRemovableDevices = 0;
++  UINTN Idx;
++
++  Status = gBS->LocateHandleBuffer (ByProtocol, &gEfiBlockIoProtocolGuid, NULL, &NoHandles, &Handles);
++  if (EFI_ERROR (Status)) {
++    Print(L"LocateHandleBuffer failed: %d\n", Status);
++    return Status;
++  }
++
++  Print(L"Block devices found: %d\n", NoHandles);
++
++  ASSERT (NoHandles > 0);
++
++  for (Idx = 0; Idx < NoHandles; ++Idx) {
++    EFI_DEVICE_PATH_PROTOCOL *DevicePath = DevicePathFromHandle(Handles[Idx]);
++
++    while (!IsDevicePathEndType(DevicePath)) {
++      if (DevicePathType(DevicePath) == MESSAGING_DEVICE_PATH) {
++        /* NOTE: research USB device only
++         *
++         * Spec:
++         * "So, the whole device path for this USB Controller consists:
++         * - an ACPI Device Path Node;
++         * - a PCI Device Path Node;
++         * - a USB Device Path Node;
++         * - and a Device Path End Structure."
++         *
++         * Lets assume that usb hub consists of 3 parts and device consists of 4 parts:
++         * - root hub: PciRoot(0)/PCI(31,2)/USB(0,0);
++         * - device  : PciRoot(0)/PCI(31,2)/USB(1,0)/<any path ("HD..." on my vm)>.
++         */
++        if (DevicePathSubType(DevicePath) == MSG_USB_DP) {
++          /* this can be a USB hub, check the next path part */
++          if (!IsDevicePathEndType(NextDevicePathNode(DevicePath))){
++            CHAR16 *DevicePathText = ConvertDevicePathToText(DevicePath, FALSE, FALSE);
++            Print(L"%d: %s\n", ++NrRemovableDevices, DevicePathText);
++            FreePool(DevicePathText);
++          }
++          break;
++        }
++      }
++      DevicePath = NextDevicePathNode(DevicePath);
++    }
++  }
++
++  gBS->FreePool (Handles);
++
++  Print(L"Removable devices found: %d\n", NrRemovableDevices);
++
++  return Status;
++}
+diff --git a/AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.inf b/AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.inf
+new file mode 100644
+index 0000000..5be91a9
+--- /dev/null
++++ b/AppPkg/Applications/RemovableDeviceList/RemovableDeviceList.inf
+@@ -0,0 +1,32 @@
++[Defines]
++  INF_VERSION                    = 0x00010005
++  BASE_NAME                      = RemovableDeviceList
++  FILE_GUID                      = cab058df-e938-4f85-8978-1f7e6aabdb96
++  MODULE_TYPE                    = UEFI_APPLICATION
++  VERSION_STRING                 = 1.0
++  ENTRY_POINT                    = ShellCEntryLib
++
++#
++# The following information is for reference only and not required by the build tools.
++#
++  VALID_ARCHITECTURES           = IA32 X64 IPF EBC
++#
++
++[Sources]
++  RemovableDeviceList.c
++
++[Packages]
++  MdePkg/MdePkg.dec
++  MdeModulePkg/MdeModulePkg.dec
++  ShellPkg/ShellPkg.dec
++
++[LibraryClasses]
++  DebugLib                           # ASSERT
++  MemoryAllocationLib                # FreePool()
++  ShellLib
++  ShellCEntryLib
++  UefiBootServicesTableLib           # Access to UEFI Boot Services via gBS pointer
++  UefiLib
++
++[Protocols]
++  gEfiBlockIoProtocolGuid            # Block devices

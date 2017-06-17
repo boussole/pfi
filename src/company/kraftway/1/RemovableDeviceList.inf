@@ -1,0 +1,32 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = RemovableDeviceList
+  FILE_GUID                      = cab058df-e938-4f85-8978-1f7e6aabdb96
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+  VALID_ARCHITECTURES           = IA32 X64 IPF EBC
+#
+
+[Sources]
+  RemovableDeviceList.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  DebugLib                           # ASSERT
+  MemoryAllocationLib                # FreePool()
+  ShellLib
+  ShellCEntryLib
+  UefiBootServicesTableLib           # Access to UEFI Boot Services via gBS pointer
+  UefiLib
+
+[Protocols]
+  gEfiBlockIoProtocolGuid            # Block devices
