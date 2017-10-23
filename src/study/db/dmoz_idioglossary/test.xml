@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<RDF xmlns:r="http://www.w3.org/TR/RDF/"
+     xmlns:d="http://purl.org/dc/elements/1.0/"  
+     xmlns="http://dmoz.org/rdf">
+
+<!-- Generated at 2004-05-04 01:05:15 GMT on dust -->
+
+<Topic r:id="Top">
+  <catid>1</catid>
+</Topic>
+
+<ExternalPage about="http://www.vrot.be.ru">
+  <d:Title>Pidor</d:Title>
+  <d:Description>Site of pidor</d:Description>
+  <topic>Huy/Pan</topic>
+</ExternalPage>
+
+<Topic r:id="Huy">
+  <catid>1</catid>
+</Topic>
+
+<Topic r:id="Top/Arts/Movies/Titles">
+  <catid>465672</catid>
+</Topic>
+
+<ExternalPage about="">
+  <topic>Top/</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts">
+  <catid>2</catid>
+</Topic>
+
+<Topic r:id="Top/Arts/Movies">
+  <catid>38</catid>
+</Topic>
+
+<ExternalPage about="http://www.britishhorrorfilms.co.uk/rillington.shtml">
+  <d:Title>British Horror Films: 10 Rillington Place</d:Title>
+  <d:Description>Review which looks at plot especially the shocking features of it.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/10_Rillington_Place</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.shoestring.org/mmi_revs/10-rillington-place.html">
+  <d:Title>MMI Movie Review: 10 Rillington Place</d:Title>
+  <d:Description>Review includes plot, real life story behind the film and realism in the film.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/10_Rillington_Place</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.tvguide.com/movies/database/ShowMovie.asp?MI=22983">
+  <d:Title>TV Guide Online: 10 Rillington Place</d:Title>
+  <d:Description>Review and credits.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/10_Rillington_Place</topic>
+</ExternalPage>
+
+<ExternalPage about="http://us.imdb.com/title/tt0066730/">
+  <d:Title>IMDb : 10 Rillington Place (1971)</d:Title>
+  <d:Description>Full cast and crew for the film, and other information from the Internet Movie Database.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/10_Rillington_Place</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/1984_-_1984">
+  <catid>460423</catid>
+  <link r:resource="http://www.geocities.com/aaronbcaldwell/1984.html"/>
+  <link r:resource="http://orwell.ru/a_life/movies/m84_01.htm"/>
+  <link r:resource="http://www.britmovie.co.uk/genres/fiction/filmography/014.html"/>
+  <link r:resource="http://adrianmco.batcave.net/1984.htm"/>
+  <link r:resource="http://www.filmtracks.com/titles/1984.html"/>
+  <link r:resource="http://us.imdb.com/title/tt0087803/"/>
+</Topic>
+
+<ExternalPage about="http://www.geocities.com/aaronbcaldwell/1984.html">
+  <d:Title>Top 100 Movie Lists: 1984</d:Title>
+  <d:Description>Photos, sounds [Real Audio], and a review.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/1984_-_1984</topic>
+</ExternalPage>
+
+<ExternalPage about="http://orwell.ru/a_life/movies/m84_01.htm">
+  <d:Title>George Orwell's Movies - 1984</d:Title>
+  <d:Description>Review.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/1984_-_1984</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.britmovie.co.uk/genres/fiction/filmography/014.html">
+  <d:Title>Britmovie: Nineteen Eighty-Four</d:Title>
+  <d:Description>Synopsis, and cast and crew links.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/1984_-_1984</topic>
+</ExternalPage>
+
+<ExternalPage about="http://adrianmco.batcave.net/1984.htm">
+  <d:Title>Batcave: Nineteen Eighty-Four</d:Title>
+  <d:Description>Review.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/1984_-_1984</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.filmtracks.com/titles/1984.html">
+  <d:Title>Filmtracks: 1984</d:Title>
+  <d:Description>Soundtrack review, audio clips, and ratings.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/1984_-_1984</topic>
+</ExternalPage>
+
+<ExternalPage about="http://us.imdb.com/title/tt0087803/">
+  <d:Title>IMDb: Nineteen Eighty-Four (1984)</d:Title>
+  <d:Description>Full cast and crew for the film, synopsis, awards information, trivia, user comments, and related links.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/1984_-_1984</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/187">
+  <catid>97826</catid>
+  <link r:resource="http://www.wbmovies.com/187/"/>
+  <link r:resource="http://www.movieweb.com/movie/187/index.html"/>
+  <link r:resource="http://www.filmscouts.com/scripts/film.cfm?film=187"/>
+  <link r:resource="http://www.tvguide.com/movies/database/ShowMovie.asp?MI=38994"/>
+  <link r:resource="http://www.mrqe.com/lookup?187"/>
+  <link r:resource="http://us.imdb.com/title/tt0118531/"/>
+</Topic>
+
+<ExternalPage about="http://zalupa.ru/">
+  <d:Title>zzzz</d:Title>
+  <d:Description> 576</d:Description>
+  <topic>Huy/Pan</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.wbmovies.com/187/">
+  <d:Title>187</d:Title>
+  <d:Description>Official site. Includes synopsis, trailer, cast biographies, background information, reviews, production notes, and related links.</d:Description>
+  <priority>1</priority>
+  <topic>Top/Arts/Movies/Titles/1/187</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.movieweb.com/movie/187/index.html">
+  <d:Title>MovieWeb: 187</d:Title>
+  <d:Description>Synopsis, statistics on school violence, production information, and still photographs.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/187</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.filmscouts.com/scripts/film.cfm?film=187">
+  <d:Title>FilmScouts: 187</d:Title>
+  <d:Description>Production information, synopsis, filmmaker and cast biographies, and video clips.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/187</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.tvguide.com/movies/database/ShowMovie.asp?MI=38994">
+  <d:Title>Cinebooks Database - When Bad Kids Happen to Good Teachers</d:Title>
+  <d:Description>Review by Maitland McDonagh (predominantly negative), rating.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/187</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.mrqe.com/lookup?187">
+  <d:Title>MRQE: One Eight Seven</d:Title>
+  <d:Description>Links to over 50 reviews of the film.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/187</topic>
+</ExternalPage>
+
+<ExternalPage about="http://us.imdb.com/title/tt0118531/">
+  <d:Title>IMDb: One Eight Seven</d:Title>
+  <d:Description>Includes user ratings and comments, taglines, plot outline, cast and credits.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/187</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/187/Cast_and_Crew">
+  <catid>541379</catid>
+</Topic>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/15_Minutes">
+  <catid>97825</catid>
+  <link r:resource="http://www.falsegods.com/15min/15min.html"/>
+</Topic>
+
+<ExternalPage about="http://www.falsegods.com/15min/15min.html">
+  <d:Title>15 Minutes</d:Title>
+  <d:Description>Description of a documentary about an art theft as art. Asks for donations to complete the production.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/15_Minutes</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/12_Monkeys">
+  <catid>97822</catid>
+  <link r:resource="http://www.geocities.com/Hollywood/Boulevard/8928/"/>
+  <link r:resource="http://www.scifi.sk/12Monkeys/faq.html"/>
+  <link r:resource="http://www.smart.co.uk/dreams/monkfact.htm"/>
+  <link r:resource="http://www.geocities.com/Area51/Rampart/6040/monkeys.html"/>
+  <link r:resource="http://www.generationterrorists.com/quotes/12_monkeys.html"/>
+  <link r:resource="http://members.tripod.com/~bucephalus/index2.html"/>
+  <link r:resource="http://www.allscifi.com/Topics/Info_4346.asp"/>
+  <link r:resource="http://members.tripod.com/Lenninthezanybee/frames.htm"/>
+  <link r:resource="http://www.hollywoodjesus.com/12monkey.htm"/>
+  <link r:resource="http://www.dailyscript.com/scripts/twelve_monkeys.html"/>
+  <link r:resource="http://us.imdb.com/title/tt0114746/"/>
+</Topic>
+
+<ExternalPage about="http://www.geocities.com/Hollywood/Boulevard/8928/">
+  <d:Title>12 Monkeys Things</d:Title>
+  <d:Description>Selected media clips from the film and compiled links.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.scifi.sk/12Monkeys/faq.html">
+  <d:Title>12 Monkeys FAQ</d:Title>
+  <d:Description>Comprehensive list of plot questions, with detailed answers.</d:Description>
+  <priority>1</priority>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.smart.co.uk/dreams/monkfact.htm">
+  <d:Title>12 Monkeys: Dreams Facts</d:Title>
+  <d:Description>A detailed introduction and collected interviews.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.geocities.com/Area51/Rampart/6040/monkeys.html">
+  <d:Title>12 Monkeys: Time Travel</d:Title>
+  <d:Description>Detailed analysis of the time travel used in 12 Monkeys.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.generationterrorists.com/quotes/12_monkeys.html">
+  <d:Title>12 Monkeys Quotes</d:Title>
+  <d:Description>Selected quotations from the film.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://members.tripod.com/~bucephalus/index2.html">
+  <d:Title>Comprehensive Guide to 12 Monkeys</d:Title>
+  <d:Description>Includes cast and crew information, and an online edition of the film's script, by David and Janet Peoples.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.allscifi.com/Topics/Info_4346.asp">
+  <d:Title>Allscifi Review - 12 Monkeys</d:Title>
+  <d:Description>Analytical review of the plot, setting, theme, and structure of the Bruce Willis film, and links to similar movies.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://members.tripod.com/Lenninthezanybee/frames.htm">
+  <d:Title>Headquarters of the Twelve Monkeys</d:Title>
+  <d:Description>Site includes production notes, sound clips, trivia and film merchandise information.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.hollywoodjesus.com/12monkey.htm">
+  <d:Title>Hollywood Jesus: 12 Monkeys</d:Title>
+  <d:Description>Visual film analysis linking and explaining Biblical themes in the movie.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.dailyscript.com/scripts/twelve_monkeys.html">
+  <d:Title>The Daily Script - 12 Monkeys</d:Title>
+  <d:Description>Original screenplay by David and Janet Peoples.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<ExternalPage about="http://us.imdb.com/title/tt0114746/">
+  <d:Title>IMDb:  12 Monkeys</d:Title>
+  <d:Description>Film cast and crew information.  Includes comments submitted by users.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/12_Monkeys</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/12_Monkeys/Cast_and_Crew">
+  <catid>541396</catid>
+</Topic>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/13th_Warrior,_The">
+  <catid>54809</catid>
+  <link r:resource="http://www.geocities.com/darkdaze18/"/>
+  <link r:resource="http://apolloguide.com/mov_revtemp.asp?Title=13th+Warrior,+The"/>
+  <link r:resource="http://www.boxofficemojo.com/13thwarrior.html"/>
+  <link r:resource="http://movie-reviews.colossus.net/movies/t/13th_warrior.html"/>
+  <link r:resource="http://ter.air0day.com/13thwarrior.shtml"/>
+  <link r:resource="http://www.metacritic.com/video/titles/13thwarrior"/>
+  <link r:resource="http://us.imdb.com/title/tt0120657/"/>
+</Topic>
+
+<ExternalPage about="http://www.geocities.com/darkdaze18/">
+  <d:Title>The 13th Warrior Domain</d:Title>
+  <d:Description>Fan site, includes a review, video and sound clips, and photographs.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<ExternalPage about="http://apolloguide.com/mov_revtemp.asp?Title=13th+Warrior,+The">
+  <d:Title>Apollo Leisure Guide</d:Title>
+  <d:Description>Includes a review, cast list, and links.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.boxofficemojo.com/13thwarrior.html">
+  <d:Title>Box Office Mojo</d:Title>
+  <d:Description>Box office data for The 13th Warrior since day one. Includes Antonio Banderas' box office track record.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<ExternalPage about="http://movie-reviews.colossus.net/movies/t/13th_warrior.html">
+  <d:Title>ReelView Review: The 13th Warrior</d:Title>
+  <d:Description>Contains a review, cast list, and release information.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<ExternalPage about="http://ter.air0day.com/13thwarrior.shtml">
+  <d:Title>The Editing Room</d:Title>
+  <d:Description>A short parody script.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.metacritic.com/video/titles/13thwarrior">
+  <d:Title>Metacritic.com</d:Title>
+  <d:Description>Links to reviews on other sites.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<ExternalPage about="http://us.imdb.com/title/tt0120657/">
+  <d:Title>IMDb - The 13th Warrior (1999)</d:Title>
+  <d:Description>Cast/credits plus additional information about the film</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/13th_Warrior,_The/Cast_and_Crew">
+  <catid>541518</catid>
+</Topic>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews">
+  <catid>558978</catid>
+  <link r:resource="http://www.all-reviews.com/videos/thirteenth-warrior.htm"/>
+  <link r:resource="http://www.haro-online.com/movies/13th_warrior.html"/>
+  <link r:resource="http://www.rottentomatoes.com/movie-1091574/"/>
+  <link r:resource="http://upcomingmovies.com/13thwarrior.html"/>
+  <link r:resource="http://www.brunching.com/selfmade/selfmade-thirteenthwarrior.html"/>
+  <link r:resource="http://www.filmtracks.com/titles/13th_warrior.html"/>
+</Topic>
+
+<ExternalPage about="http://www.all-reviews.com/videos/thirteenth-warrior.htm">
+  <d:Title>All-Reviews.com  - 13th Warrior</d:Title>
+  <d:Description>Compiled review</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.haro-online.com/movies/13th_warrior.html">
+  <d:Title>HARO Online - The 13th Warrior</d:Title>
+  <d:Description>A review of the film by Haro.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.rottentomatoes.com/movie-1091574/">
+  <d:Title>Rotten Tomatoes</d:Title>
+  <d:Description>Links to reviews.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews</topic>
+</ExternalPage>
+
+<ExternalPage about="http://upcomingmovies.com/13thwarrior.html">
+  <d:Title>Upcomingmovies.com: The 13th Warrior</d:Title>
+  <d:Description>Preview and review of the film</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.brunching.com/selfmade/selfmade-thirteenthwarrior.html">
+  <d:Title>Brunching Shuttlecocks: The 13th Warrior</d:Title>
+  <d:Description>Review by the Self-Made Critic.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews</topic>
+</ExternalPage>
+
+<ExternalPage about="http://www.filmtracks.com/titles/13th_warrior.html">
+  <d:Title>Filmtracks: The 13th Warrior</d:Title>
+  <d:Description>Soundtrack review, audio clips, and ratings.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/13th_Warrior,_The/Reviews</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/100_Girls">
+  <catid>769088</catid>
+  <link r:resource="http://www.100girls.net/"/>
+  <link r:resource="http://imdb.com/title/tt0214388/"/>
+</Topic>
+
+<ExternalPage about="http://www.100girls.net/">
+  <d:Title>100 Girls Official Website</d:Title>
+  <d:Description>From Lions Gate Productions.  Contains cast and crew overview, production details, and news.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/100_Girls</topic>
+</ExternalPage>
+
+<ExternalPage about="http://imdb.com/title/tt0214388/">
+  <d:Title>IMDb: 100 Girls (2000)</d:Title>
+  <d:Description>Cast, crew, reviews, plot summary and related links.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/100_Girls</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/100_Pigmies_and_Andy_Panda">
+  <catid>205115</catid>
+  <link r:resource="http://us.imdb.com/title/tt0146394/"/>
+</Topic>
+
+<ExternalPage about="http://us.imdb.com/title/tt0146394/">
+  <d:Title>IMDb : 100 Pigmies and Andy Panda (1940)</d:Title>
+  <d:Description>Full cast and crew for the film, and other information from the Internet Movie Database.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/100_Pigmies_and_Andy_Panda</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/10_to_Midnight">
+  <catid>205113</catid>
+  <link r:resource="http://us.imdb.com/title/tt0085121/"/>
+</Topic>
+
+<ExternalPage about="http://us.imdb.com/title/tt0085121/">
+  <d:Title>IMDb : 10 to Midnight (1983)</d:Title>
+  <d:Description>Full cast and crew for the film, and other information from the Internet Movie Database.</d:Description>
+  <topic>Top/Arts/Movies/Titles/1/10_to_Midnight</topic>
+</ExternalPage>
+
+<Topic r:id="Top/Arts/Movies/Titles/1">
+  <catid>54803</catid>
+</Topic>
+
+<Topic r:id="Top/Arts/Movies/Titles/1/10_Rillington_Place">
+  <catid>205108</catid>
+  <link r:resource="http://www.britishhorrorfilms.co.uk/rillington.shtml"/>
+  <link r:resource="http://www.shoestring.org/mmi_revs/10-rillington-place.html"/>
+  <link r:resource="http://www.tvguide.com/movies/database/ShowMovie.asp?MI=22983"/>
+  <link r:resource="http://us.imdb.com/title/tt0066730/"/>
+</Topic>
+
+
+
+<Topic r:id="Huy/Pan">
+  <catid>1</catid>
+  <link r:resource="http://obos.ru"/>
+  <link r:resource="http://www.vrot.be.ru"/>
+  <link r:resource="http://ebun.ru"/>
+</Topic>
+
+<Topic r:id="1/Pan">
+  <catid>1</catid>
+</Topic>
+
+</RDF>
